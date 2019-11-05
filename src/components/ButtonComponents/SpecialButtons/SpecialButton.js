@@ -1,9 +1,8 @@
 import React from "react";
-
+import SpecialOp from './Specials'
 const SpecialButton = () => {
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+    <SpecialOp/>
   );
 };
+export default SpecialButton;
